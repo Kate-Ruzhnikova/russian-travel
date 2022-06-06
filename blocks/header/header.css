@@ -1,9 +1,10 @@
 .header {
-    width: 1184px;
+    max-width: 1184px;
     min-height: 52px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
 }
 
 
