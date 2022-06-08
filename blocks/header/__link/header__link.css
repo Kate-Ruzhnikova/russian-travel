@@ -5,8 +5,10 @@
     color: #FFFFFF;
     margin: 0;
     font-weight: 400;
+    text-decoration: underline;
 }
 
 .header__link:last-child {
     padding: 0;
+    text-decoration: none;
 }

@@ -1,0 +1,18 @@
+.footer__link-item {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 18px;
+    color: #fff;
+
+}
+
+
+@media screen and (max-width: 568px) {
+    .footer__link-item {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 32px 0;
+    
+    }
+}
