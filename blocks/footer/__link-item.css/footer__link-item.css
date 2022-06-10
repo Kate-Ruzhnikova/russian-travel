@@ -4,9 +4,14 @@
     line-height: 18px;
     margin-right: 18px;
     color: #fff;
+    transition: opacity 1s linear;
 
 }
 
+.footer__link-item:hover {
+    opacity: .8;
+    
+  }
 
 @media screen and (max-width: 568px) {
     .footer__link-item {
