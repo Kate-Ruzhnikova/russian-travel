@@ -21,6 +21,6 @@
 В вышеизложенных блоках применены такие технологии веб-разработки, как flex-контейнер и свойства к нему относящиеся (flex-direction, justify-content, align-items и др.); grid-контейнер (grid-template-columns, grid-template-rows, repeat, minmax(), min-content и др.). 
 Имеющиеся картинки были оптимизированы, что позволило сократить их вес до 80%. Чтобы каринки коррректно меняли свой размер при изменении разрешения экрана были применены свойства object-fit: cover, object-fit: contain.
 
-ССылка на проект
+Ссылка на проект
 https://kate-ruzhnikova.github.io/russian-travel/
 
