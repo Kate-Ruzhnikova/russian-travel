@@ -2,19 +2,21 @@
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 100%;
+    margin: 0;
+    padding: 0 48px;
+    
 }
-
 
 @media screen and (max-width: 1140px) {
     .header {
         max-width: 928px;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 768px) {
     .header {
+        padding: 0 24px;
         max-width: 720px;
     }
 }
@@ -22,6 +24,6 @@
 
 @media screen and (max-width: 568px) {
     .header {
-        max-width: 288px;
-    }
+        padding: 0 16px;
+}
 }
