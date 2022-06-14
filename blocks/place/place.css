@@ -1,16 +1,15 @@
 .place {
     display: grid;
     gap: 48px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(452px, 1fr));
+    grid-template-columns: fit-content(460px) minmax(min-content, max-content);
     margin: 0 auto;
-    grid-template-rows: min-content min-content;
-    max-width: 100%;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1115px) {
     .place {
         gap: 48px 32px;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: fit-content(440px) minmax(min-content, max-content);
     }
 }
 
@@ -23,5 +22,6 @@
 @media screen and (max-width: 568px) {
     .place {
         gap: 32px;
+        grid-template-columns: minmax(min-content, max-content);
     }
 }
